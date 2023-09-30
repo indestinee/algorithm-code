@@ -3,7 +3,7 @@ do
   cpp_file=$executable.cpp
   if [ -f $cpp_file ]
   then
-    echo $executable
+    echo rm $executable
     rm $executable
   fi
 done
